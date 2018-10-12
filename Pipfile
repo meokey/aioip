@@ -4,6 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+aioredis = "*"
+aiokafka = "*"
+parsel = "*"
+motor = "*"
+sanic = "*"
+uvloop = "*"
 
 [dev-packages]
 
